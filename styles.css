@@ -48,3 +48,19 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+.gallery {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
